@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css'
-import { Box, Button, Flex, Progress, Text } from '@radix-ui/themes';
+import { Box, Button, Flex, Link, Progress, Text } from '@radix-ui/themes';
 import { generateRoundData } from './utils/generateMap';
+import ViteLogo from './assets/vite.svg';
+import ReactLogo from './assets/react.svg';
+import TsLogo from './assets/typescript.png';
+import RadixUiLogo from './assets/radixui.png';
+import GithubLogo from './assets/github.svg';
 
 const ROUND_TIME = 60.0;
 
@@ -104,6 +109,33 @@ function App() {
                         </Flex>
                     </Flex>
                     <Button size="3" onClick={startGame} style={{ cursor: "pointer" }}>게임 시작</Button>
+                    <Flex gapX="2"
+                        style={{
+                            position: "absolute",
+                            right: 24,
+                            bottom: 24,
+                            textAlign: "right",
+                            opacity: 0.8,
+                            fontSize: "1.1rem"
+                        }}
+                    >
+                        <Text size="3" className="credits">Made with</Text>
+                        <Link href='https://vitejs.dev/' target='_blank'>
+                            <img src={ViteLogo} alt="Vite Logo" style={{ width: "24px", height: "24px", verticalAlign: "middle" }} />
+                        </Link>
+                        <Link href='https://reactjs.org/' target='_blank'>
+                            <img src={ReactLogo} alt="React Logo" style={{ width: "24px", height: "24px", verticalAlign: "middle" }} />
+                        </Link>
+                        <Link href='https://www.typescriptlang.org/' target='_blank'>
+                            <img src={TsLogo} alt="Ts Logo" style={{ width: "24px", height: "24px", verticalAlign: "middle" }} />
+                        </Link>
+                        <Link href='https://radix-ui.com' target='_blank'>
+                            <img src={RadixUiLogo} alt="RadixUi Logo" style={{ width: "24px", height: "24px", verticalAlign: "middle" }} />
+                        </Link>
+                        <Link href='https://github.com/ridanit-ruma/StroopGame' target='_blank'>
+                            <img src={GithubLogo} alt="Github Logo" style={{ width: "24px", height: "24px", verticalAlign: "middle" }} />
+                        </Link>
+                    </Flex>
                 </Flex>
             ) : (
                 <Box>
