@@ -1,4 +1,4 @@
-[![라이브 데모](https://img.shields.io/badge/지금%20플레이하기-stroop.inizeno.com-brightgreen?style=for-the-badge&logo=react)](https://stroop.inizeno.com)
+[![라이브 데모](https://img.shields.io/badge/지금%20플레이하기-stroop.inizeno.com-brightgreen?style=for-the-badge&logo=play)](https://stroop.inizeno.com)
 [![GitHub 레포지토리](https://img.shields.io/badge/GitHub-StroopGame-blue?style=for-the-badge&logo=github)](https://github.com/ridanit-ruma/StroopGame)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
