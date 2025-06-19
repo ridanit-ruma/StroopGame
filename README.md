@@ -7,6 +7,7 @@
 
 # 🧠 Stroop Game
 > 2025 Raon - Raness Book Event
+
 A simple Stroop Challenge game that can be enjoyed via web access. It was created using Vite + React + Typescript templates, and the user interface was configured based on Radix UI.
 
 # ❓️ What is the Stroop Game?
