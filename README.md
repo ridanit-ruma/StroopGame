@@ -1,9 +1,9 @@
-[![라이브 데모](https://img.shields.io/badge/지금%20플레이하기-stroop.inizeno.com-brightgreen?style=for-the-badge&logo=play)](https://stroop.inizeno.com)
-[![GitHub 레포지토리](https://img.shields.io/badge/GitHub-StroopGame-blue?style=for-the-badge&logo=github)](https://github.com/ridanit-ruma/StroopGame)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Radix UI](https://img.shields.io/badge/Radix%20UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white)](https://www.radix-ui.com/)
+[![Vite](https://img.shields.io/badge/Vite-563d7c?logo=vite&logoColor=white)](...)
+[![React](https://img.shields.io/badge/React-20232a?logo=react)](...)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](...)
+[![Radix UI](https://img.shields.io/badge/Radix_UI-000000?logo=radixui&logoColor=white)](...)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
+[![Live Demo](https://img.shields.io/badge/Demo-Play_Now-brightgreen)](https://your-demo-link.com)
 
 # React + TypeScript + Vite
 
