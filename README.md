@@ -8,7 +8,7 @@
 # 🧠 Stroop Game
 > 2025 Raon - Raness Book Event
 
-A simple Stroop Challenge game that can be enjoyed via web access. It was created using Vite + React + Typescript templates, and the user interface was configured based on Radix UI.
+A simple Stroop Challenge game that can be enjoyed via web access. It was created by using Vite + React + Typescript templates, and the user interface was configured based on Radix UI.
 
 # ❓️ What is the Stroop Game?
 The Stroop game, based on the Stroop effect, is a psychological test where participants name the color of ink that a word is printed in, while the word itself is a different color name. For example, the word "blue" might be printed in red ink. The challenge is to ignore the word itself and focus on saying the ink color. This creates interference because the brain automatically wants to read the word, even when it's not relevant to the task.
