@@ -84,13 +84,13 @@ function App() {
                 setSelectedIndex(null);
                 setScore(prev => prev + 1);
                 startRound();
-            }, 500);
+            }, 1000);
         } else {
             setTimeout(() => {
                 setHighlightCorrect(false);
                 setSelectedIndex(null);
                 startRound();
-            }, 500);
+            }, 1000);
         }
     }
 
@@ -101,7 +101,7 @@ function App() {
                     <Flex direction="column" gapY="7">
                         <Flex direction={"column"}>
                             <Text size="9" weight="bold" className="title">스트루프 게임</Text>
-                            <Text size="7" className="subtitle">- Made by RAON</Text>
+                            <Text size="7" className="subtitle">- 2025 RAON</Text>
                         </Flex>
                         <Flex direction="column">
                             <Text size="6">Score : {score}</Text>
@@ -183,7 +183,9 @@ function App() {
                                                         }}
                                                         className="grid-item"
                                                         onClick={() => {
-                                                            handleClick(rowIndex, index);
+                                                            if (!HighlightCorrect) {
+                                                                handleClick(rowIndex, index);
+                                                            }
                                                         }}
                                                     >
                                                         {item[0]}
