@@ -1,8 +1,8 @@
-[![Vite](https://img.shields.io/badge/Vite-563d7c?logo=vite&logoColor=white)](...)
-[![React](https://img.shields.io/badge/React-20232a?logo=react)](...)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](...)
-[![Radix UI](https://img.shields.io/badge/Radix_UI-000000?logo=radixui&logoColor=white)](...)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
+[![Vite](https://img.shields.io/badge/Vite-563d7c?logo=vite&logoColor=white)](https://vite.dev/)
+[![React](https://img.shields.io/badge/React-20232a?logo=react)](https://react.dev/blog/2023/03/16/introducing-react-dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Radix UI](https://img.shields.io/badge/Radix_UI-000000?logo=radixui&logoColor=white)](https://www.radix-ui.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ridanit-ruma/StroopGame/LICENSE.md)
 [![Live Demo](https://img.shields.io/badge/Demo-Play_Now-brightgreen)](https://stroop.inizeno.com)
 
 # 🧠 Stroop Game
