@@ -74,6 +74,7 @@ function App() {
     }
 
     function handleClick(rowIndex: number, index: number) {
+        if ( highlightCorrect ) return;
         const clickedIndex = rowIndex * 4 + index;
         setSelectedIndex(clickedIndex);
 
@@ -183,9 +184,7 @@ function App() {
                                                         }}
                                                         className="grid-item"
                                                         onClick={() => {
-                                                            if (!HighlightCorrect) {
-                                                                handleClick(rowIndex, index);
-                                                            }
+                                                            handleClick(rowIndex, index);
                                                         }}
                                                     >
                                                         {item[0]}
