@@ -11,8 +11,8 @@ export const colorNames = [
 export const colorHexs = [
     "#000000", // 검정
     "#FF0000", // 빨강
-    "#FFA500", // 주황
-    "#FFD700", // 노랑
+    "#ffa600ff", // 주황
+    "#ffd900b9", // 노랑
     "#008000", // 초록
     "#0000FF", // 파랑
     "#800080"  // 보라

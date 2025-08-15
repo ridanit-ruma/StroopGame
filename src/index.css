@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
 * {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Ownglyph_corncorn-Rg';
 }
 
 html, body {
